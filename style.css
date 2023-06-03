@@ -1,0 +1,142 @@
+table{
+    align-self: right;
+}
+table,th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    width: 60px;
+    height: 54px;
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+
+}
+#control{
+display: flex;
+padding: 50px;
+margin: 10px;
+}
+#selectB{
+    display:inline-flex;
+    flex-direction: column;
+    margin: 10px;
+}
+#choose{
+    display: inline-flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin: -12px 0 0 -12px;
+    
+}
+
+/* #score{
+    
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+} */
+
+#score{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    margin: 10px;
+}
+#tiemr{
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+}
+.luminate{
+
+background-color: lightgoldenrodyellow;
+
+
+}
+.error{
+
+background-color: lightcoral;
+
+
+}
+.whitten{
+
+background-color: white;
+opacity: 100%;
+}
+.lamp{
+    content: '<div>&#128161;</div>';
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(157, 183, 236);
+    font-size: 20px;
+    color: aliceblue;
+    
+}
+body{
+    display:contents;
+}
+
+
+
+
+
+/* CSS */
+
+/* CSS */
+button{
+  width: 150px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  button {
+    padding: 0.25em 0.75em;
+  }
+}
+#check{
+    background-color: greenyellow;
+}
+
+
+
+input {padding: 6px 12px;
+background: rgb(31, 32, 35);
+border: 1px solid rgb(60, 63, 68);
+border-radius: 4px;
+font-size: 13px;
+color: rgb(247, 248, 248);
+height: 46px;
+appearance: none;
+transition: border 0.15s ease 0s;
+:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: rgb(100, 153, 255);
+}}
