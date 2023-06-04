@@ -1,0 +1,31 @@
+{
+    "userid1": {
+        "id": "admin",
+        "username": "admin",
+        "email": "email3@email.hu",
+        "password": "admin",
+        "isAdmin": true
+    },
+    "userid2": {
+        "id": "userid2",
+        "username": "user2",
+        "email": "email2@email.hu",
+        "password": "user2",
+        "isAdmin": false
+    },
+    "2": {
+        "email": "AAA",
+        "username": "AAA",
+        "password": "AAA"
+    },
+    "3": {
+        "email": "asdasdasd@asda.dasdas",
+        "username": "asd",
+        "password": "asd"
+    },
+    "4": {
+        "email": "hoz@hoz.hoz",
+        "username": "hoz",
+        "password": "hoz"
+    }
+}

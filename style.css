@@ -1,0 +1,183 @@
+/* table, td {
+    border: 2px solid black;
+    text-align: center;
+} */
+
+span{
+    font-style: oblique;
+    color: rgb(19, 19, 17);
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px 0;
+
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+}
+
+table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+}
+ tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+ tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+table tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .link_wrapper{
+    position: relative;
+  }
+  
+  input[type="submit"]{
+    display: block;
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    background: #333;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 3px solid #333;
+    transition: all .35s;
+    align-self: center;
+    margin: 20px;
+  }
+  
+  .icon{
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    position: absolute;
+    transform: rotate(45deg);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    transition: all .35s;
+    
+  }
+  
+  .icon svg{
+    width: 30px;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: calc(50% - 15px);
+    transform: rotate(-45deg);
+    fill: #2ecc71;
+    transition: all .35s;
+  }
+  
+  input:hover{
+    width: 200px;
+    border: 3px solid #2ecc71;
+    background: transparent;
+    color: #2ecc71;
+  }
+  
+  input:hover + .icon{
+    border: 3px solid #2ecc71;
+    right: -25%;
+  }
+
+  #btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    position: relative;
+    font-size: 10em;
+    letter-spacing:10px;
+    font-family: sans-serif;
+    display:table;
+    margin:20px auto;
+    cursor:pointer;
+    transition:.6s;
+  }
+  h1:before,
+  h1:after {
+    content:attr(data-text);
+    transition:.6s;
+  }
+  h1:before {
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index:-1;
+    text-shadow:
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px,
+     0px 0px;
+    -webkit-mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+            mask:repeating-linear-gradient(45deg, transparent 0 3px, rgba(0,0,0,0.5) 0 6px);
+  }
+  h1:hover {
+    transform:translate(-10px,-10px);
+  }  
+  h1:hover:before {
+    text-shadow:
+     1px 1px,
+     2px 2px,
+     3px 3px,
+     4px 4px,
+     5px 5px,
+     6px 6px,
+     7px 7px,
+     8px 8px,
+     9px 9px,
+     10px 10px;
+  }
+  
+
+  
+
+

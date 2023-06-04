@@ -1,0 +1,80 @@
+{
+    "poll9": {
+        "id": "poll9",
+        "question": "How do u like cofee",
+        "options": [
+            "strong ",
+            "milk ",
+            "latte"
+        ],
+        "isMultiple": true,
+        "deadline": "2023-03-10",
+        "createdAt": "2023-01-28 21:22:23",
+        "answers": {
+            "strong ": 1,
+            "milk ": 0,
+            "latte": 0
+        },
+        "voted": [
+            "admin"
+        ]
+    },
+    "poll222": {
+        "id": "poll222",
+        "question": "What kind of snacks would you like?!!!!!!!!",
+        "options": [
+            "Potato",
+            "Peanuts",
+            "Chocolate",
+            "Cookies"
+        ],
+        "isMultiple": false,
+        "deadline": "2027-12-13",
+        "createdAt": "2023-01-29 16:25:27",
+        "answers": {
+            "Potato": 2,
+            "Peanuts": 0,
+            "Chocolate": 1,
+            "Cookies": 2
+        },
+        "voted": [
+            "AAA",
+            "admin",
+            "hoz"
+        ]
+    },
+    "poll1": {
+        "id": "poll1",
+        "question": "Would you like FREE snacks on the university campus?",
+        "options": [
+            "Yes",
+            "No"
+        ],
+        "isMultiple": false,
+        "deadline": "2022-12-12",
+        "createdAt": "2023-06-04 13:31:58",
+        "answers": {
+            "Yes": 0,
+            "No": 0
+        },
+        "voted": []
+    },
+    "poll20": {
+        "id": "poll20",
+        "question": "How are u?",
+        "options": [
+            "good",
+            "bad",
+            "mah,"
+        ],
+        "isMultiple": false,
+        "deadline": "2023-02-10",
+        "createdAt": "2023-06-04 13:33:10",
+        "answers": {
+            "good": 0,
+            "bad": 0,
+            "mah,": 0
+        },
+        "voted": []
+    }
+}
